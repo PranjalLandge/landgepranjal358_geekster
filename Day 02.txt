@@ -1,0 +1,103 @@
+1)	public class Main {
+    public static void main(String[] args) {
+       double radius, diameter, circumference, area;
+       Scanner sc=new Scanner(System.in);
+        radius=sc.nextDouble();
+        diameter = 2 * radius;
+        area = 3.14 * (radius * radius);
+        System.out.println("Diameter of circle = "+ diameter);
+        System.out.println("area of circle = "+ area);
+    }
+}
+2)	public class Main {
+    public static void main(String[] args) {
+     double x,y;
+    Scanner sc=new Scanner(System.in);
+        System.out.println("Base of the Triangle:");
+         x= sc.nextDouble();
+        System.out.println("Height of the Triangle:");
+         y= sc.nextDouble();
+        double area=(x*y)/2;
+      System.out.println("Area of Triangle is: " + area ); 
+    }
+}
+3)	public class Main {
+    public static void main(String[] args) {
+    int x;        
+     boolean ans;
+        Scanner sc=new Scanner(System.in);
+        x = sc.nextInt();
+       ans = x > 1000;
+    System.out.println(ans );
+    }      }
+5)	a)  14
+b)  25
+c) 4
+d) 19.759
+e) 10.0
+f) 10.5
+g) 10.75
+h) 0.0
+i)2.125
+
+6)	a) true
+b) ture
+c) false
+d) true
+e) true 
+f) true
+g) false
+h) true 
+i) true
+j) true
+
+7)	public class Main {
+   public static void main(String[] args) {
+        float eng, phy, chem, math, comp ;
+        double total , percentage ;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter marks of five subjects:");
+        System.out.println("English ");
+        eng=sc.nextFloat();
+        System.out.println("Physics ");
+        phy=sc.nextFloat();
+        System.out.println("Chemistry ");
+        chem=sc.nextFloat();
+        System.out.println("Math ");
+        math=sc.nextFloat();
+        System.out.println("Computer ");
+        comp=sc.nextFloat();
+        total = eng + phy + chem + math + comp;
+        percentage = (total / 500.0) * 100;
+         System.out.println("Total marks ="+total);
+         System.out.println("Percentage = "+percentage);
+    }
+}
+
+8) public class Main {
+    public static void main(String[] args) {
+        int a,b,c,d;
+        Scanner sc=new Scanner(System.in);
+        a=sc.nextInt();
+        b=sc.nextInt();
+        c=sc.nextInt();
+        d=sc.nextInt();
+        int Product = a*b*c*d;
+        boolean ans = Product>1000;
+        System.out.println(ans);
+    }
+}
+9)	public class Main {
+    public static void main(String[] args) {
+        int num;
+        Scanner sc = new Scanner(System.in);
+        num = sc.nextInt();
+        if (num % 7 == 0) {
+        System.out.println(" divisible");
+    }
+    else {
+        System.out.println(" not divisible");
+    }
+    }
+}
+

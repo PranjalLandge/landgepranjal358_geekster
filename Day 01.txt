@@ -1,0 +1,67 @@
+1)	public class Main {
+public static void main(String[] args) {
+System.out.println("Hello I am enjoying coding");
+}
+}
+2)	public class Main {
+public static void main(String[] args) {
+System.out.println("Hello" + '\n' + "I"+ '\n' + "am" + '\n' + "enjoying" + '\n' + coding");
+}
+}
+3) public class Main {
+    public static void main(String[] args) {
+        System.out.println("Sum "+(100+8+3));
+        System.out.println("Product "+(100*8*3));
+    }
+}
+
+4) public class Main {
+    public static void main(String[] args) {
+        int a = 100;
+        int b = 40;
+        System.out.println(a-b);
+    }
+}
+
+5) public class Main {
+    public static void main(String[] args) {
+        int side , i,j;
+        Scanner sc = new Scanner(System.in);
+        side = sc.nextInt();
+        for (i=1;i<=side;i++){
+            for(j=1;j<=side;j++){
+                System.out.print("*" + " ");
+            }System.out.println("\n");
+        }
+    }
+}
+6)  public class Main {
+    public static void main(String[] args) {
+        int i,j,k;
+        Scanner sc = new Scanner(System.in);
+            for (i=1;i<=5;i++){
+            for(j=2;j<=3;j++){
+                System.out.print("*" + " ");
+            }System.out.println("");
+          } System.out.print("*****") ;    
+    }
+}
+
+7) public class Main {
+    public static void main(String[] args) {
+        int number, last_digit;
+	Scanner sc = new Scanner(System.in);
+number = sc.nextInt();	
+	last_digit = number % 10;
+System.out.println("Last Digit =" + last_digit);
+	}
+}
+8) public class Main {
+    public static void main(String[] args) {
+        int m=15;
+        int n=4;
+        System.out.println(m+n) ;    
+        System.out.println(m-n) ; 
+        System.out.println(m*n) ; 
+    }
+}
